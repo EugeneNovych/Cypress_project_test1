@@ -46,7 +46,11 @@
 //     cy.wait(3000)
 //     cy.get('*[class^="card"]')
 // })
+<<<<<<< HEAD
 // Comment 123
+=======
+// Comment 111
+>>>>>>> findElementWithGetFindEq
 it('Using Get with Find and Eq', () => {
     cy.visit('https://next.privat24.ua/deposit/open')
     cy.get('tbody').find('td').find('div').find('button').eq(0)
